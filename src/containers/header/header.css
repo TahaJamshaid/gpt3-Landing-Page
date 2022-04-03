@@ -1,0 +1,99 @@
+.gpt3__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gpt3__header-content {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* margin-right: 5rem; */
+}
+
+.gpt3__header-content h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 4.7rem;
+  letter-spacing: -0.04em;
+  font-family: var(--font-family);
+}
+
+.gpt3__header-content p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  font-family: var(--font-family);
+  color: var(--color-text);
+  margin-top: 1.5rem;
+}
+
+.gpt3__header-content_input {
+  display: flex;
+
+  width: 100%;
+  margin: 2rem 0 1rem;
+}
+
+.gpt3__header-content_input input {
+  flex: 2.5;
+  height: 73px;
+  background: var(--color-footer);
+  border: 2px solid var(--color-footer);
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  outline: none;
+  padding-left: 2rem;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: white;
+}
+.gpt3__header-content_input input::placeholder {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #3d6184;
+  padding-left: 2rem;
+}
+
+.gpt3__header-content_input button {
+  flex: 1;
+  height: 73px;
+  background: #ff4820;
+  border-radius: 0 5px 5px 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  font-family: ver(--font-family);
+  color: #ffff;
+  border: none;
+}
+
+.gpt3__header-content_people {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+.gpt3__header-content_people p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 38px;
+  margin-top: 0;
+  margin-left: 1rem;
+  color: #fff;
+}
+
+.gpt3__header-image {
+  flex: 1;
+}
+
+.gpt3_header-image img {
+  width: 650px;
+  height: 700px;
+}
