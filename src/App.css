@@ -99,12 +99,13 @@ a {
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .section__padding {
-    padding: 4rem 6rem;
-  }
-  .section__margin {
     padding: 4rem;
+  }
+
+  .section__margin {
+    margin: 4rem;
   }
 }
 
@@ -113,6 +114,6 @@ a {
     padding: 4rem 2rem;
   }
   .section__margin {
-    padding: 4rem;
+    padding: 4rem 2rem;
   }
 }
