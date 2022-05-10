@@ -164,3 +164,13 @@
     line-height: 1.5rem;
   }
 }
+@media only screen and (max-width: 350px) {
+  .gpt3__header-content_input input,
+  .gpt3__header-content_input input::placeholder,
+  .gpt3__header-content_input button {
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+
+    height: 3rem;
+  }
+}
